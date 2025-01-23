@@ -4,8 +4,7 @@ from user import user_about
 from random_task import choice_task, version_1_1_choice_task
 from image import *
 import os
-API_TOKEN = os.getenv("BOT_TOKEN")
-
+API_TOKEN = '8190196884:AAHxx2BINdFFgt5HoJK58mwCovVvsTQUDIU'
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
 
